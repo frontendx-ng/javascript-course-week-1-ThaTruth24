@@ -38,3 +38,29 @@ let today = new Date();
 console.log("Current Time : "+hour + period + " : " + minute + " : " + second);
 	</script>
 <!--question 1 ends Here -->
+
+
+<!--question 2 starts here -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Frontend X</title>
+</head>
+<body>
+<p>Click the button to print the current window.</p>
+
+<button onclick="myFunction()">Print this page</button>
+
+<script>
+function myFunction() {
+    window.print();
+}
+console.log(myFunction);
+</script>
+
+</body>
+</html>
+<!-- question 2 ends here -->
+	
+	
