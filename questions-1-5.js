@@ -62,5 +62,34 @@ console.log(myFunction);
 </body>
 </html>
 <!-- question 2 ends here -->
+
 	
+<!-- question 3 starts here -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Frontend X</title>
+</head>
+<body>
+
+<script>
+let today = new Date();
+let dd = today.getDate();
+
+let mm = today.getMonth()+1;
+let yyyy = today.getFullYear();
+
+today = mm+'-'+dd+'-'+yyyy;
+console.log(today);
+today = mm+'/'+dd+'/'+yyyy;
+console.log(today);
+today = dd+'-'+mm+'-'+yyyy;
+console.log(today);
+today = dd+'/'+mm+'/'+yyyy;
+console.log(today);
+</script>
+
+</body>
+</html>
+<!-- question 3 ends here -->
 	
