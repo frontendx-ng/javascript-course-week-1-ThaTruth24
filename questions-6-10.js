@@ -45,3 +45,27 @@ for (let year = 2014; year <= 2050; year++)
 </body>
 </html>
 <!-- question 7 ends here -->
+
+	
+<!-- question 8 starts here -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Frontend X</title>
+</head>
+<body>
+
+<script>
+ let num = Math.ceil(Math.random() * 10);
+ let guess = prompt('Guess the number between 1 and 10 inclusive');
+ if (guess == num)
+   alert('Matched');
+  else
+   alert('Not matched, the number was ' + num);
+</script>
+
+</body>
+</html>
+
+<!-- question 8 ends here -->
+	
