@@ -138,4 +138,42 @@ console.log(answer);
 </body>
 </html>
 
-<!-- QUestion 19 Ends Here -->
+<!-- Question 19 Ends Here -->
+
+	
+<!--Question 20 Starts Here -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Frontend X</title>
+</head>
+<body>
+<form>
+	Enter 1st Number: <input type="text" id="number1"/><br>
+	Enter 2nd Number: <input type="text" id="number2"/><br>
+
+	<input type="button" onClick="check()" Value="check" />
+</form>
+
+<script>
+
+function check() {
+ 	let num1 = document.getElementById("number1").value;
+ 	let num2 = document.getElementById("number2").value;
+
+    if ((num1 > 0 && num2 < 0)  || (num1 < 0 && num2 > 0)){
+        answer = true;
+    }
+    else{
+        answer = false;
+    }
+
+    console.log(answer);
+ }
+
+
+</script>
+
+</body>
+</html>
+<!-- Questio 20 Ends Here -->
