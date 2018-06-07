@@ -36,3 +36,20 @@ function fToCel()
 </body>
 </html>
 <!--Question 11 ends here -->
+
+	
+<!--Question 12 Starts Here -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Frontend X</title>
+</head>
+<body>
+<script>
+console.log(document.URL);
+</script>
+
+</body>
+</html>
+<!--Question 12 Ends Here -->
+	
