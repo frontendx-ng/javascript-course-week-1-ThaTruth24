@@ -31,3 +31,35 @@ function swap() {
 <!--Question 26 Ends Here -->
   
 
+<!-- Question 27 Starts Here -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Frontend X</title>
+</head>
+<body>
+<form>
+	Enter A String: <input type="text" id="str"/><br>
+
+	<input type="button" onClick="check()" Value="Check" />
+</form>
+
+<script>
+
+function check() {
+  	let str = document.getElementById("str").value;
+
+  	let first4 = str.substring(0, 4);
+  	if (first4 == 'Java') {
+  console.log(true);
+} else
+	console.log(false);
+}
+
+</script>
+
+</body>
+</html>
+
+<!-- QUestion 27 Ends Here -->
