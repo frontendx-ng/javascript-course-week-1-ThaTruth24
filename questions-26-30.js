@@ -134,3 +134,36 @@ function check() {
 </body>
 </html>
 <!-- Question 29 Ends Here-->
+
+
+<!--Question 30 Starts Here -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Frontend X</title>
+</head>
+<body>
+<form>
+	Enter A String: <input type="text" id="str"/><br>
+
+	<input type="button" onClick="swap()" Value="Swap" />
+</form>
+
+<script>
+
+function swap() {
+  	let str = document.getElementById("str").value
+  	let last3 = str.substring(10, 4);
+  	if (last3 == 'script') {
+  console.log(str.substring(0, 4) + str.substring(10,str.length));
+} else
+	console.log(str);
+}
+
+</script>
+
+</body>
+</html>
+
+<!--Question 30 Ends Here -->
