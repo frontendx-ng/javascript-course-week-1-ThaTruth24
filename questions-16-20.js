@@ -109,3 +109,33 @@ function check() {
 </body>
 </html>
 <!-- Question 18 Ends Here -->
+
+	
+<!-- QUestion 19 Begins Here -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Frontend X</title>
+</head>
+<body>
+<form>
+	Enter 1st Number: <input type="text" id="number1"/><br>
+
+	<input type="button" onClick="check()" Value="Check" />
+</form>
+
+<script>
+
+function check() {
+	let num = document.getElementById("number1").value
+	let answer =  ((Math.abs(100 - +num) <= 20) || (Math.abs(400 - +num) <= 20));
+console.log(answer);
+}
+
+
+</script>
+
+</body>
+</html>
+
+<!-- QUestion 19 Ends Here -->
