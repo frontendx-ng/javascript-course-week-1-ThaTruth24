@@ -123,3 +123,34 @@ function swap() {
 </html>
 
 <!-- QUestion 24 Ends Here -->
+
+	
+<!--Question 25 Starts Here -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Frontend X</title>
+</head>
+<body>
+<form>
+	Enter A Number: <input type="text" id="num"/><br>
+
+	<input type="button" onClick="check()" Value="Check" />
+</form>
+
+<script>
+
+function check() {
+  	let num = document.getElementById("num").value
+  	if ((num % 3 == 0) || (num % 7 == 0)){
+  		console.log(true);
+  	} else{
+  		console.log(false);
+  	}
+}
+</script>
+
+</body>
+</html>
+<!--QUestion 25 Ends Here -->
