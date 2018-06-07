@@ -53,3 +53,27 @@ console.log(document.URL);
 </html>
 <!--Question 12 Ends Here -->
 	
+
+<!-- Question 13 Starts Here -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Frontend X</title>
+</head>
+<body>
+
+<script>
+
+let startName = 'ThnakGod Egbo';
+let changeName = "Frontend X";
+this[startName] = changeName;
+console.log(this[startName])
+
+</script>
+
+</body>
+</html>
+
+<!--Question !3 ends Here -->
+	
