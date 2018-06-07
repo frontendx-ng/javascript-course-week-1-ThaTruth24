@@ -77,3 +77,31 @@ console.log(this[startName])
 
 <!--Question !3 ends Here -->
 	
+
+<!--Question 14 begins Here -->
+	<!DOCTYPE html>
+<html>
+<head>
+	<title>Frontend X</title>
+</head>
+<body>
+<form>
+	Enter Name Of File With It's Extension : <input type="text" id="file"/><br>
+
+	<input type="button" onClick="getExtension()" Value="Get File Extension" />
+</form>
+
+<script>
+
+function getExtension(){
+let file = document.getElementById("file").value;
+let extension = file.split('.').pop();
+console.log(extension);	
+}
+
+
+</script>
+
+</body>
+</html>
+<!-- Question 14 Ends Here -->
