@@ -59,7 +59,7 @@ for (let year = 2014; year <= 2050; year++)
  let num = Math.ceil(Math.random() * 10);
  let guess = prompt('Guess the number between 1 and 10 inclusive');
  if (guess == num)
-   alert('Matched');
+   alert('Good Work');
   else
    alert('Not matched, the number was ' + num);
 </script>
