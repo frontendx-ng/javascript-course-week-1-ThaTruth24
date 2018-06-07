@@ -94,3 +94,42 @@ console.log(`${Math.ceil((cmas.getTime()-today.getTime())/(one_day))} days left 
 
 <!-- question 9 ends here -->
 	
+<!-- Question 10 starts here -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Frontend X</title>
+</head>
+<body>
+
+<form>
+
+1st Number : <input type="text" id="Number1" /><br>
+2nd Number: <input type="text" id="Number2" /><br>
+<input type="button" onClick="multiply()" Value="Multiply" />
+<input type="button" onClick="divide()" Value="Divide" />
+</form>
+
+
+<script>
+function multiply()
+{
+        num1 = document.getElementById("Number1").value;
+        num2 = document.getElementById("Number2").value;
+        result = num1 * num2;
+        console.log(result);
+}
+
+function divide() 
+{ 
+        num1 = document.getElementById("Number1").value;
+        num2 = document.getElementById("Number2").value;
+		result = num1 / num2;
+		console.log(result);
+}
+
+</script>
+
+</body>
+</html>
+<!-- Question 10 ends here -->
