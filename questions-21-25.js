@@ -95,3 +95,31 @@ function swap() {
 </body>
 </html>
 <!-- Question 23 Ends Here -->
+
+	
+<!-- Question 24 Strats Here -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Frontend X</title>
+</head>
+<body>
+<form>
+	Enter A String: <input type="text" id="str"/><br>
+
+	<input type="button" onClick="swap()" Value="Swap" />
+</form>
+
+<script>
+
+function swap() {
+  	let str = document.getElementById("str").value
+  console.log( (str.charAt(0)) + str + str.charAt(0));
+}
+</script>
+
+</body>
+</html>
+
+<!-- QUestion 24 Ends Here -->
