@@ -115,4 +115,30 @@ console.log(area);
 </html>
 <!-- question 4 ends here -->
 	
-	
+
+<!-- question 5 starts here -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Frontend X</title>
+</head>
+<body onload="reverse_string('target')"
+  <pre id="target">w3resource</pre>
+
+<script>
+function reverse_string(id) 
+{
+    const element = document.getElementById(id);
+    const textNode = element.childNodes[0];
+    let text = textNode.data;
+
+setInterval(() => {
+ text = text[text.length - 1] + text.substring(0, text.length - 1);
+  textNode.data = text;
+}, 300);
+}
+</script>
+
+</body>
+</html>
+<!-- question 5 ends here -->
