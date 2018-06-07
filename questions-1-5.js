@@ -93,3 +93,26 @@ console.log(today);
 </html>
 <!-- question 3 ends here -->
 	
+	
+<!-- question 4 starts here -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Frontend X</title>
+</head>
+<body>
+
+<script>
+let angle1 = 5; 
+let angle2 = 6; 
+let angle3 = 7; 
+let perimeter = (angle1 + angle2 + angle3)/2;
+let area =  Math.sqrt(perimeter*((perimeter-angle1)*(perimeter-angle2)*(perimeter-angle3)));
+console.log(area);
+</script>
+
+</body>
+</html>
+<!-- question 4 ends here -->
+	
+	
