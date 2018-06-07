@@ -105,3 +105,38 @@ console.log(extension);
 </body>
 </html>
 <!-- Question 14 Ends Here -->
+
+	
+<!--Question 15 Starts Here -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Frontend X</title>
+</head>
+<body>
+<form>
+	Enter a Number: <input type="text" id="num"/><br>
+
+	<input type="button" onClick="difference()" Value="Get The Difference" />
+</form>
+
+<script>
+
+function difference()
+ {
+ 	let num = document.getElementById("num").value;
+    if (num <= 13)
+        answer = 13 - num;
+    else
+        answer = (num - 13) * 2;
+
+    console.log(answer);
+ }
+
+
+</script>
+
+</body>
+</html>
+
+<!--Question !5 Ends Here -->
