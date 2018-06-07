@@ -69,3 +69,28 @@ for (let year = 2014; year <= 2050; year++)
 
 <!-- question 8 ends here -->
 	
+<!--question 9 starts here -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Frontend X</title>
+</head>
+<body>
+
+<script>
+today=new Date();
+const cmas=new Date(today.getFullYear(), 11, 25);
+if (today.getMonth()==11 && today.getDate()>25) 
+{
+cmas.setFullYear(cmas.getFullYear()+1); 
+}  
+const one_day=1000*60*60*24;
+console.log(`${Math.ceil((cmas.getTime()-today.getTime())/(one_day))} days left until Christmas!`);
+
+</script>
+
+</body>
+</html>
+
+<!-- question 9 ends here -->
+	
