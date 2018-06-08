@@ -112,3 +112,41 @@ function check() {
 </html>
 
 <!--Question 33 Ends Here -->
+
+	
+<!-- Question 34 starts Here -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Frontend X</title>
+</head>
+<body>
+<form>
+	Enter Number1: <input type="text" id="num1"/><br>
+	Enter Number2: <input type="text" id="num2"/><br>
+
+	<input type="button" onClick="check()" Value="Check" />
+</form>
+
+<script>
+
+function check() {
+  	let num1 = document.getElementById("num1").value;
+  	let num2 = document.getElementById("num2").value;
+	if ( (num1 >= 40 && num1 <= 60 && num2 >= 40 && num2 <= 60)){
+		if (num1 > num2) {
+			console.log(num1);
+		} else {
+			console.log(num2);
+		}
+	} else{
+		console.log(false);
+	}
+}
+</script>
+
+</body>
+</html>
+
+
+<!--Question 34 Ends Here -->
