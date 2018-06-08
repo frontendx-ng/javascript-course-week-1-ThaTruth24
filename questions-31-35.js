@@ -150,3 +150,39 @@ function check() {
 
 
 <!--Question 34 Ends Here -->
+
+	
+<!--Question 35 Starts Here -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Frontend X</title>
+</head>
+<body>
+<form>
+	Enter String: <input type="text" id="str"/><br>
+	Character To Check: <input type="text" id="chr"/><br>
+
+	<input type="button" onClick="checkChar()" Value="Check" />
+</form>
+
+<script>
+
+function checkChar() {
+	let str = document.getElementById("str").value;
+	let chr = document.getElementById("chr").value;
+  let ctr = 0;
+  for (let i = 0; i < str.length; i++)
+  {
+    if (str.charAt(i) == chr) {
+      ctr++;
+    }
+  }
+  console.log(ctr >= 2 && ctr <= 4);
+}
+</script>
+
+</body>
+</html>
+
+<!-- Question 35 Ends Here -->
